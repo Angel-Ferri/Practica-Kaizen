@@ -1,0 +1,22 @@
+### Todas las tareas
+GET http://localhost:5000/tareas
+
+### Guardar una tarea
+POST http://localhost:5000/tareas
+Content-Type: application/json
+
+{
+    "Nombre": "Tareaaaaaaaaa",
+    "Descripcion": "Descipcion :D",
+    "Estado": "nI IdEA"
+}
+
+### Actualizar tareas
+PUT  http://localhost:5000/tareas/1
+Content-Type: application/json
+
+{
+    "Nombre": "Tareaaaaaaaaa",
+    "Descripcion": "Descipcion :D",
+    "Estado": "nI IdEA"
+}
